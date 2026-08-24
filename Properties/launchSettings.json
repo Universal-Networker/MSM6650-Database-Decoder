@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MSM6650 Database Decoder": {
+      "commandName": "Project",
+      "commandLineArgs": "-i A.BIN,B.BIN,C.BIN,D.BIN,E.BIN -s 16 -f WAV -o out"
+    }
+  }
+}
