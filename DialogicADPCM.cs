@@ -1,6 +1,6 @@
 ﻿// Dialogic ADPCM encoder and decoder using the Dialogic ADPCM algorithm specification which is used by the OKI MSM6650/M6650.
 // Encodes PCM samples into Dialogic ADPCM samples.
-// Encodes Dialogic ADPCM samples into PCM samples.
+// Decodes Dialogic ADPCM samples into PCM samples.
 
 using System;
 using System.Collections.Generic;
