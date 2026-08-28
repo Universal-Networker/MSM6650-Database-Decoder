@@ -5,6 +5,8 @@ However, it was more specifically created to decode the announcements on a Briti
 
 Examples of the decoded announcements can be found in the main files under "Announcements".
 
+The Class 365 announcement EPROM binaries can be found in the main files under "Binaries".
+
 ## Phrase Definition Table
 The database binaries start with a phrase table at hex address 0x800 which can hold up to 128 phrases. 
 
