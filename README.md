@@ -3,7 +3,7 @@ This tool is able to decode the audio databases EPROM binaries used for the OKI 
 
 However, it was more specifically created to decode the announcements on a British Rail Class 365 announcement unit.
 
-Examples of the decoded announcements can be found along with the latest release.
+Examples of the decoded announcements can be found in the main files under "Announcements".
 
 ## Phrase Definition Table
 The database binaries start with a phrase table at hex address 0x800 which can hold up to 128 phrases. 
