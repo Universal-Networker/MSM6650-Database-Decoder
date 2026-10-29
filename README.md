@@ -28,5 +28,5 @@ I wrote a decoder/encoder for the Dialogic ADPCM format (although only the decod
 
 # How To Use
 Easy to use, running ```MSM6650Decoder -help``` runs through everything.
-## Example Command For The Class 365 Database
+## Example Command For Class 365 Databases
 ```MSM6650Decoder -i "[binaries]" -s "16" -f "[WAV or MP3, defaults to WAV if not present]" -o "[optional and defaults to the current directory if not present]"```
