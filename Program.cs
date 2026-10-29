@@ -62,13 +62,13 @@ class Program
                     break;
 
                 case "-h":
-                case "--help":
+                case "-help":
                     Console.WriteLine("MSM6650Decoder.exe - A tool to decode MSM6650 ADPCM binaries into PCM audio.");
                     Console.WriteLine("Usage: MSM6650Decoder.exe <args>");
                     Console.WriteLine("Args:");
                     Console.WriteLine("Input Binaries    : -i \"1.bin,2.bin,3.bin,4.bin etc\" : Required (Input binaries must be in same directory and should be entered in a comma seperated list with no spaces.)");
                     Console.WriteLine("Input Sample Rate : -s \"8/16 etc\"                    : Required (Number in Khz.)");
-                    Console.WriteLine("Input Sample Rate : -f \"WAV/MP3 etc\"                 : Optional (WAV or MP3, defaults to WAV.)");
+                    Console.WriteLine("Output Format     : -f \"WAV/MP3 etc\"                 : Optional (WAV or MP3, defaults to WAV.)");
                     Console.WriteLine("Output Directory  : -o \"Output Directory\"            : Optional (Defaults to current directory.)");
                     return;
             }
