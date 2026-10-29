@@ -26,7 +26,7 @@ This is presumably done so then the MSM6650 knows exactly how many audio bytes t
 
 I wrote a decoder/encoder for the Dialogic ADPCM format (although only the decoder is used here, I have used the encoder for other projects so it does work!) it's nearly 100% copied from the Dialogic ADPCM Algorithm document pseudocode found in this document: https://web.archive.org/web/20260314195903/https://www.mp3-tech.org/programmer/docs/adpcm.pdf (Since writing the code and creating this git repo the original website has gone down so an internet archive link will have to suffice!)
 
-# How To Use
+## How To Use
 Easy to use, running ```MSM6650Decoder -help``` runs through everything.
-## Example Command For Class 365 Databases
+### Example Command For Class 365 Databases
 ```MSM6650Decoder -i "[binaries]" -s "16" -f "[WAV or MP3, defaults to WAV if not present]" -o "[optional and defaults to the current directory if not present]"```
