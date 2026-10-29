@@ -25,3 +25,8 @@ There is an additional block byte which is 0x00 to mark the end of the phrase.
 This is presumably done so then the MSM6650 knows exactly how many audio bytes to process, In fact during some experimentation of custom audio, I failed to put these bytes in and the MSM6650 continued to play audio into the next phrase as all the phrase audio data is placed one after each other.
 
 I wrote a decoder/encoder for the Dialogic ADPCM format (although only the decoder is used here, I have used the encoder for other projects so it does work!) it's nearly 100% copied from the Dialogic ADPCM Algorithm document pseudocode found in this document: https://web.archive.org/web/20260314195903/https://www.mp3-tech.org/programmer/docs/adpcm.pdf (Since writing the code and creating this git repo the original website has gone down so an internet archive link will have to suffice!)
+
+# How To Use
+Easy to use, running ```MSM6650Decoder -help``` runs through everything.
+## Example Command For The Class 365 Database
+```MSM6650Decoder -i "[binaries]" -s "16" -f "[WAV or MP3, defaults to WAV if not present]" -o "[optional and defaults to the current directory if not present]"```
